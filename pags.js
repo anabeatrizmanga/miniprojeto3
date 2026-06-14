@@ -42,7 +42,7 @@ for (let ind = 0; ind < produtos.length; ind++) {
     container.innerHTML += criarCard(produtos[ind]);
 }
 
-const botao = document.querySelector("#exportar");
+const botao = document.querySelector("#btExportar");
 const saida = document.querySelector("#saida");
 
 botao.addEventListener("click", function () {

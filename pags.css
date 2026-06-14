@@ -34,12 +34,15 @@ h1 {
     margin: 8px 0;
 }
 
-#exportar {
+#btExportar {
     display: block;
     margin: 30px auto;
     padding: 10px 20px;
     cursor: pointer;
 }
+ #btExportar:hover  {
+    background-color: #adb7c5;
+ }
 
 #saida {
     background-color: white;
